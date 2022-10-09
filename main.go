@@ -21,7 +21,7 @@ func main() {
 
 redo:
 
-	err := fs.WalkDir(os.DirFS(optDir), "/", func(path string, d fs.DirEntry, err error) (_ error) {
+	err := fs.WalkDir(os.DirFS(optDir), ".", func(path string, d fs.DirEntry, err error) (_ error) {
 		if err != nil {
 			gg.Log("failed walking: " + path + ": " + err.Error())
 			return
