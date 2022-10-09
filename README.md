@@ -9,7 +9,7 @@ truncate log files to zero
 
 ## Donation
 
-Check https://guoyk93.github.io/#donation
+Check https://guoyk.xyz/donation
 
 ## Credits
 
